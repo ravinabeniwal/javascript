@@ -1,1 +1,0 @@
-console.log(firstName.unshift("hello"));
