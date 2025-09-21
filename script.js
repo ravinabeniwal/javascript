@@ -155,13 +155,26 @@
 // document.body.childNodes[3].innerText="abcd";
 // let  heading=document.getElementById("heading");
 // console.log(heading)
-let btn1=document.querySelector("#btn1");
-btn1.onclick = (evt) =>{
-    // console.log("btn1 is clicked");
-    // let a=25;
-    // a++;
-    // console.log(a);
-    console.log(evt.type);
-    console.log(evt.target);
-    console.log(evt.clientX,evt.clientY);
+// let btn1=document.querySelector("#btn1");
+// btn1.onclick = (evt) =>{
+//     // console.log("btn1 is clicked");
+//     // let a=25;
+//     // a++;
+//     // console.log(a);
+//     console.log(evt.type);
+//     console.log(evt.target);
+//     console.log(evt.clientX,evt.clientY);
+// };
+
+//  classes and object
+
+const student={
+    fullName:'Ravina',
+    rollNo: 900,
+    marks:98,
+    printMarks: function(){
+        console.log("marks=",this.marks);
+    },
 };
+
+// we can set a proto type using name.__proto__
