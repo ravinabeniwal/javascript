@@ -108,11 +108,60 @@
  // toString method is used to convert array into string
    
 
- let firstName=["ravina","beniwal","hisar"]
-// let lastName=["ghazibad","delhi"]
-// let fullName=firstName.concat(lastName)
-// console.log(fullName);
-let val=firstName.unshift("ravina") // remove first element from array;
-console.log(val);
+//  let firstName=["ravina","beniwal","hisar"]
+// // let lastName=["ghazibad","delhi"]
+// // let fullName=firstName.concat(lastName)
+// // console.log(fullName);
+// let val=firstName.unshift("ravina") // remove first element from array;
+// console.log(val);
+
+// function are used to repeat the number
+// arrow function(=>)
+// function sum(a,b){
+//     return a+b;
+//     }
+// const arrowSum = (a,b) => {
+//      console.log(a+b);
+//      };
+
+// for each loop in array
+// function can perform as a perameter
+// let arr=[1,4,6,34,67];
+// arr.forEach((val) =>{
+//     console.log(val);
+// })
 
 
+
+// let arr=[1,4,6,34,67];
+// arr.forEach(function printVal(val){
+//     console.log(val);
+// });
+
+
+// for each loop in array is higher order function/methods
+// function parqametere 
+// return
+
+
+
+
+//Starter  code
+
+
+// Dom = Document object model
+// let myElement= document.getElementById("myld");
+// let myObject=document.getElementsByClassName("myClass");
+// document.body.childNodes[3].innerText="abcd";
+// let  heading=document.getElementById("heading");
+// console.log(heading)
+let btn1=document.querySelector("#btn1");
+btn1.onclick = (evt) =>{
+    // console.log("btn1 is clicked");
+    // let a=25;
+    // a++;
+    // console.log(a);
+    console.log(evt.type);
+    console.log(evt.target);
+    console.log(evt.clientX,evt.clientY);
+};
